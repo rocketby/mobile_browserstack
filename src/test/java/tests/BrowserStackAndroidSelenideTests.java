@@ -33,7 +33,6 @@ public class BrowserStackAndroidSelenideTests extends TestBase {
         step("Open settings page", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/menu_overflow_button")).click();
             $(MobileBy.id("org.wikipedia.alpha:id/explore_overflow_settings")).click();
-
         });
 
         step("Verify content on opened page", () ->
