@@ -16,7 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class BrowserStackAndroidSelenideTests extends TestBase {
 
     @Test
-    @DisplayName("Execute search in wikipedia")
+    @DisplayName("Execute search in Wikipedia")
     void searchTest() {
         step("Type search", () -> {
             $(MobileBy.AccessibilityId("Search Wikipedia")).click();
